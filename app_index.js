@@ -119,7 +119,20 @@ function smoothScrollToSection(targetId) {
 
 // Header scroll effect
 function handleHeaderScroll() {
-    // This function is intentionally left blank to prevent header color changes on scroll.
+    const header = document.querySelector('.header');
+    if (!header) return;
+    
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
+        
+        if (currentScrollY > 100) {
+            header.style.background = 'rgba(0, 0, 0, 0.95)';
+            header.style.backdropFilter = 'blur(15px)';
+        } else {
+            header.style.background = 'rgba(0, 0, 0, 0.9)';
+            header.style.backdropFilter = 'blur(10px)';
+        }
+    });
 }
 
 // Intersection Observer for fade-in animations

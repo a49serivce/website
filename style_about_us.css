@@ -6,7 +6,7 @@
 /* CEO Section */
 .ceo-section {
     padding: 4rem 0;
-    background: var(--a49-black);
+    background: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
 
 .ceo-content {
@@ -27,13 +27,13 @@
     max-width: 320px;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px rgba(192, 192, 192, 0.3);
     object-fit: cover;
     display: block;
 }
 
 .ceo-title {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -67,17 +67,17 @@
     height: auto;
     display: block;
     opacity: 0.8;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(35deg) brightness(1.2);
 }
 
 /* Company Section */
 .company-section {
     padding: 4rem 0;
-    background-color: var(--a49-black);
+    background-color: #111111;
 }
 
 .section-title {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 3rem;
@@ -95,7 +95,7 @@
     background: rgba(255, 255, 255, 0.05);
     padding: 2rem;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(192, 192, 192, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
     transform: translateY(30px);
@@ -108,11 +108,11 @@
 
 .company-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 12px 40px rgba(192, 192, 192, 0.15);
 }
 
 .company-card h3 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -124,10 +124,10 @@
 }
 
 .mission-statement {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(192, 192, 192, 0.1);
     padding: 2rem;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(192, 192, 192, 0.3);
     text-align: center;
     opacity: 0;
     transform: translateY(30px);
@@ -139,7 +139,7 @@
 }
 
 .mission-statement h3 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -154,7 +154,7 @@
 /* Location Section */
 .location-section {
     padding: 4rem 0;
-    background-color: var(--a49-black);
+    background-color: #000000;
 }
 
 .location-info-grid {
@@ -171,7 +171,7 @@
 }
 
 .location-info h3 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
@@ -187,7 +187,7 @@
 }
 
 .transport h4 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -206,7 +206,7 @@
 
 .transport li:before {
     content: '▶';
-    color: var(--a49-white);
+    color: var(--silver);
     position: absolute;
     left: 0;
 }
@@ -228,7 +228,7 @@
 }
 
 .footer-brand h3 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -242,7 +242,7 @@
 
 .footer-services h4,
 .footer-contact h4 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -261,7 +261,7 @@
 
 .footer-services li:before {
     content: '•';
-    color: var(--a49-white);
+    color: var(--silver);
     position: absolute;
     left: 0;
 }
@@ -348,8 +348,8 @@ img[src=""] {
     position: fixed;
     top: 100px;
     right: 20px;
-    background-color: var(--a49-white);
-    color: var(--a49-black);
+    background-color: var(--silver);
+    color: #000000;
     padding: 12px 20px;
     border-radius: 8px;
     font-weight: 500;

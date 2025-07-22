@@ -105,6 +105,9 @@
   --gold: #d4af37;
   --gold-light: #f4d571;
   --gold-dark: #b8941f;
+  --silver: #C0C0C0;
+  --silver-light: #E0E0E0;
+  --silver-dark: #A8A8A8;
   --black: #000000;
   --dark-gray: #1a1a1a;
   --medium-gray: #333333;
@@ -697,13 +700,14 @@ body.loaded .footer {
 
 /* A49 Brand Colors Override */
 :root {
-  --a49-black: #8c8c8c; /* Logo gray */
-  --a49-gold: #ffffff; /* Logo text color */
-  --a49-dark-gold: #cccccc; /* Lighter gray for accents */
-  --a49-light-gold: #ffffff;
+  --a49-black: #000000;
+  --a49-gold: #d4af37;
+  --a49-dark-gold: #b8941f;
+  --a49-light-gold: #f4d571;
   --a49-white: #ffffff;
-  --a49-gray: #666666; /* Darker gray */
-  --a49-light-gray: #cccccc; /* Lighter gray */
+  --a49-gray: #333333;
+  --a49-light-gray: #666666;
+  --a49-silver: #C0C0C0;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -739,11 +743,11 @@ body {
 
 /* Footer Styles */
 .footer {
-    background-color: var(--a49-gray);
+    background-color: var(--a49-dark-gray);
     color: var(--a49-white);
     padding: 3rem 0;
     font-size: 0.9rem;
-    border-top: 1px solid var(--a49-light-gray);
+    border-top: 1px solid var(--a49-gray);
 }
 
 .footer .container {
@@ -766,7 +770,7 @@ body {
 }
 
 .footer-brand h3 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
@@ -778,7 +782,7 @@ body {
 
 .footer-services h4,
 .footer-contact h4 {
-    color: var(--a49-white);
+    color: var(--silver);
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
@@ -800,7 +804,7 @@ body {
 }
 
 .footer-services ul li a:hover {
-    color: var(--a49-light-gold);
+    color: var(--silver);
 }
 
 .footer-contact p {
@@ -819,10 +823,10 @@ body {
 
 /* Contact Form Styles (moved from style_product.css) */
 .contact-form {
-    background: var(--a49-gray);
+    background: var(--dark-gray);
     padding: 2rem;
     border-radius: 12px;
-    border: 1px solid var(--a49-light-gray);
+    border: 1px solid rgba(192, 192, 192, 0.2);
 }
 
 .contact-form h3 {
@@ -845,18 +849,18 @@ body {
 .form-control {
     width: 100%;
     padding: 0.8rem;
-    background: var(--a49-light-gray);
-    border: 1px solid var(--a49-gray);
+    background: var(--black);
+    border: 1px solid rgba(192, 192, 192, 0.3);
     border-radius: 6px;
-    color: var(--a49-black);
+    color: var(--a49-white);
     font-size: 1rem;
     transition: var(--transition);
 }
 
 .form-control:focus {
     outline: none;
-    border-color: var(--a49-white);
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+    border-color: var(--silver);
+    box-shadow: 0 0 0 2px rgba(192, 192, 192, 0.2);
 }
 
 textarea.form-control {
@@ -865,7 +869,7 @@ textarea.form-control {
 }
 
 select.form-control {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23d4af37' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23C0C0C0' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
     background-position: right 0.5rem center;
     background-repeat: no-repeat;
     background-size: 1.5em 1.5em;
