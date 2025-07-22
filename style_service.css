@@ -1,10 +1,10 @@
 .main--service {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
 }
 
 .service {
     padding: 8rem 0;
-    background: var(--dark-gray);
+    background: var(--a49-black);
 }
 
 .section-header {
@@ -30,10 +30,10 @@
 
 .category-title {
     font-size: 2rem;
-    color: var(--gold);
+    color: var(--a49-white);
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .service-items-grid {
@@ -43,17 +43,18 @@
 }
 
 .service-item-card {
-    background: var(--black);
+    background: var(--a49-black);
     border-radius: 12px;
-    border: 1px solid rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 2rem;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .service-item-card:hover {
     transform: translateY(-8px);
-    border-color: var(--gold);
-    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.1);
+    border-color: var(--a49-white);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
 }
 
 .service-item-card h4 {

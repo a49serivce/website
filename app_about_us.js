@@ -114,22 +114,7 @@ function smoothScrollToSection(sectionId) {
 
 // Header scroll effect
 function initHeaderScroll() {
-    const header = document.querySelector('.header');
-    let lastScrollY = window.scrollY;
-    
-    window.addEventListener('scroll', () => {
-        const currentScrollY = window.scrollY;
-        
-        if (currentScrollY > 100) {
-            header.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
-            header.style.backdropFilter = 'blur(10px)';
-        } else {
-            header.style.backgroundColor = '#000000';
-            header.style.backdropFilter = 'none';
-        }
-        
-        lastScrollY = currentScrollY;
-    });
+    // This function is intentionally left blank to prevent header color changes on scroll.
 }
 
 // Add loading animation to CEO image
