@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .hero__title {
-    font-size: clamp(4rem, 8vw, 8rem);
+    font-size: clamp(3rem, 8vw, 8rem);
     font-weight: 700;
     color: var(--silver);
     margin-bottom: 1rem;
@@ -36,7 +36,7 @@
 }
 
 .hero__tagline {
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
     font-weight: 300;
     color: #cccccc;
     letter-spacing: 0.1em;
@@ -47,8 +47,8 @@
 /* Slideshow Section */
 .slideshow-section {
     position: relative;
-    height: 80vh;
-    min-height: 600px;
+    height: 60vh;
+    min-height: 60vh;
     overflow: hidden;
     background: #1a1a1a;
     display: block;
@@ -165,7 +165,7 @@
 
 /* Description Section */
 .description-section {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: #1a1a1a;
     position: relative;
     display: block;
@@ -189,7 +189,7 @@
 }
 
 .description-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 200;
     color: #ffffff;
     margin-bottom: 2rem;
@@ -197,9 +197,9 @@
 }
 
 .description-text {
-    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
     color: #cccccc;
-    max-width: 800px;
+    max-width: 90vw;
     margin: 0 auto 4rem;
     line-height: 1.8;
     font-weight: 300;
@@ -207,7 +207,7 @@
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 3rem;
     margin-top: 4rem;
 }

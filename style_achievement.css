@@ -1,11 +1,11 @@
 /* Main Content */
 .main {
-    padding: 8rem 0 4rem;
+    padding: 4rem 0 2rem;
     background: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
 
 .timeline-section {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .section-title {
@@ -19,7 +19,7 @@
 /* Improved Timeline */
 .timeline {
     position: relative;
-    max-width: 900px;
+    max-width: 90vw;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .timeline-item {
-    padding: 20px 40px;
+    padding: 10px 40px;
     position: relative;
     width: 50%;
     opacity: 0;
@@ -81,7 +81,7 @@
 }
 
 .timeline-content {
-    padding: 20px 30px;
+    padding: 15px 30px;
     background: rgba(255, 255, 255, 0.03);
     position: relative;
     border-radius: 8px;
@@ -111,27 +111,36 @@
 /* Responsive */
 @media (max-width: 768px) {
     .timeline::after {
-        left: 31px;
+        left: 2.5rem; /* 타임라인 선의 위치 */
     }
     .timeline-item {
         width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
+        padding-left: 6rem; /* 콘텐츠의 왼쪽 여백을 충분히 확보 */
+        padding-right: 1rem;
     }
     .timeline-item:nth-child(odd) {
-        left: 0;
+        left: 3rem; /* 홀수 항목을 오른쪽으로 이동 */
         text-align: left;
+        padding-right: 7rem; /* 홀수 항목 크기 더 줄이기 */
     }
     .timeline-item:nth-child(even) {
-        left: 0;
+        left: 0; /* 짝수 항목은 왼쪽 정렬 */
+        text-align: left; /* 짝수 항목 텍스트 왼쪽 정렬 */
     }
-    .timeline-dot {
-        left: 22px;
+    .timeline-dot { /* General dot style, will be overridden by specific ones below */
+        top: 30px; /* Keep original top position */
+        width: 18px;
+        height: 18px;
+        background-color: var(--silver);
+        border: 4px solid var(--black);
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(192, 192, 192, 0.7);
     }
     .timeline-item:nth-child(odd) .timeline-dot {
-        left: 22px;
+        left: calc(2.5rem - 9px - 3rem); /* 홀수 항목 이동에 맞춰 점 위치 조정 */
     }
     .timeline-item:nth-child(even) .timeline-dot {
-        left: 22px;
+        left: calc(2.5rem - 9px); /* 짝수 항목 점 위치 */
     }
 }
