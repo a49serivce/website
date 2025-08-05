@@ -399,3 +399,19 @@ if (document.readyState === 'loading') {
 } else {
   initialize();
 }
+
+// Adjust main content padding based on header height
+function adjustMainContentPadding() {
+  const header = document.querySelector('.header');
+  const main = document.querySelector('.main');
+  if (header && main) {
+    const headerHeight = header.offsetHeight;
+    main.style.paddingTop = `${headerHeight}px`;
+  }
+}
+
+// Run on initial load
+adjustMainContentPadding();
+
+// Rerun on window resize
+window.addEventListener('resize', adjustMainContentPadding);

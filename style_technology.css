@@ -1,6 +1,6 @@
 /* Main Content */
 .main {
-    padding-top: 60px; /* Adjust this value based on the header's height */
+    /* padding-top is now handled by app_technology.js */
 }
 
 /* Hero Section */
@@ -126,7 +126,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  grid-template-columns: 1fr; /* Mobile-first: 1 column */
   gap: var(--space-24);
 }
 
@@ -326,6 +326,18 @@
 }
 
 /* Responsive Design */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .hero__title {
     font-size: 2.25rem;
@@ -342,6 +354,12 @@
 
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
