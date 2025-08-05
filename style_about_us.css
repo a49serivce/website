@@ -259,12 +259,7 @@
     position: relative;
 }
 
-.footer-services li:before {
-    content: '•';
-    color: var(--silver);
-    position: absolute;
-    left: 0;
-}
+
 
 .footer-contact p {
     color: #cccccc;

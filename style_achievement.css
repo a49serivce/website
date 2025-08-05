@@ -110,6 +110,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .main {
+        padding-top: 9rem;
+    }
     .timeline::after {
         left: 2.5rem; /* 타임라인 선의 위치 */
     }
