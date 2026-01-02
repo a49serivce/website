@@ -1,0 +1,31 @@
+/* Unified styles for main content sections */
+
+body {
+    background-color: var(--a49-black);
+}
+
+.main {
+    padding: 11rem 0 5rem;
+    color: var(--a49-white);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-header h2 {
+    font-family: var(--font-family-base);
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    letter-spacing: var(--letter-spacing-tight);
+    color: var(--a49-white);
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    max-width: 600px;
+    margin: 0 auto;
+}

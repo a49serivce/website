@@ -1,12 +1,6 @@
-/* Main Content */
-.main {
-    padding-top: 4rem;
-}
-
 /* CEO Section */
 .ceo-section {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
 
 .ceo-content {
@@ -73,7 +67,6 @@
 /* Company Section */
 .company-section {
     padding: 3rem 0;
-    background-color: #111111;
 }
 
 .section-title {
@@ -154,7 +147,6 @@
 /* Location Section */
 .location-section {
     padding: 3rem 0;
-    background-color: #000000;
 }
 
 .location-info-grid {

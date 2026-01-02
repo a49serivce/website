@@ -1,0 +1,137 @@
+.timeline-section {
+    padding: 2rem 0;
+}
+
+/* Improved Timeline */
+.timeline {
+    position: relative;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background: linear-gradient(to bottom, rgba(192, 192, 192, 0) 0%, rgba(192, 192, 192, 0.5) 10%, rgba(192, 192, 192, 0.5) 90%, rgba(192, 192, 192, 0) 100%);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+    padding-right: 0;
+}
+
+.timeline-dot {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: var(--silver);
+    border: 4px solid var(--black);
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.7);
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+    right: -11px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: -11px;
+}
+
+.timeline-content {
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.03);
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid rgba(192, 192, 192, 0.15);
+    transition: var(--transition);
+}
+
+.timeline-content:hover {
+    transform: translateY(-3px);
+    border-color: rgba(192, 192, 192, 0.4);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.timeline-content h3 {
+    color: var(--silver-light);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.timeline-content p {
+    color: var(--light-gray);
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main {
+        padding-top: 9rem;
+    }
+    .timeline::after {
+        left: 2.5rem; /* 타임라인 선의 위치 */
+    }
+    .timeline-item {
+        width: 100%;
+        padding-left: 6rem; /* 콘텐츠의 왼쪽 여백을 충분히 확보 */
+        padding-right: 1rem;
+    }
+    .timeline-item:nth-child(odd) {
+        left: 3rem; /* 홀수 항목을 오른쪽으로 이동 */
+        text-align: left;
+        padding-right: 7rem; /* 홀수 항목 크기 더 줄이기 */
+    }
+    .timeline-item:nth-child(even) {
+        left: 0; /* 짝수 항목은 왼쪽 정렬 */
+        text-align: left; /* 짝수 항목 텍스트 왼쪽 정렬 */
+    }
+    .timeline-dot { /* General dot style, will be overridden by specific ones below */
+        top: 30px; /* Keep original top position */
+        width: 18px;
+        height: 18px;
+        background-color: var(--silver);
+        border: 4px solid var(--black);
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(192, 192, 192, 0.7);
+    }
+    .timeline-item:nth-child(odd) .timeline-dot {
+        left: calc(2.5rem - 9px - 3rem); /* 홀수 항목 이동에 맞춰 점 위치 조정 */
+    }
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: calc(2.5rem - 9px); /* 짝수 항목 점 위치 */
+    }
+}

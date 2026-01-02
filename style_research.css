@@ -1,34 +1,7 @@
-.main--research {
-    padding-top: 12rem;
-}
-
-/* researchs Section */
-.researchs {
-    padding: 3rem 0;
-    background: var(--dark-gray);
-}
-
-.section-header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.section-header h2 {
-    font-size: 2.5rem;
-    color: var(--a49-white);
-    margin-bottom: 1rem;
-    font-weight: 300;
-}
-
-.section-header p {
-    font-size: 1rem;
-    color: var(--light-gray);
-}
-
 .research-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    gap: 2rem;
+    gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5vw;
@@ -69,7 +42,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: var(--transition);
 }
 
@@ -96,7 +69,7 @@
 }
 
 .research-info {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .research-info h3 {
@@ -208,7 +181,7 @@
 .research-detail-image img {
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
 }
 
