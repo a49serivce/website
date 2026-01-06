@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development - A49</title>
+    <link rel="icon" href="a49_logo.jpg">
+    <link rel="stylesheet" href="style_common.css">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="style_development.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container"> 
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <span class="logo-text">A49</span>
+                    </a>
+                    <span class="logo-tagline">We make standard audio</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="development.html">Development</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                </ul>
+                <button class="nav-toggler" aria-label="Toggle navigation">
+                    <span class="nav-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Development Section -->
+    <main class="main main--development">
+        <div class="container">
+            <div class="section-header">
+                <h2>Development</h2>
+                <p></p>
+            </div>
+
+            <div class="development-grid">
+                <!-- Cables -->
+                <div class="development-card" data-development="cables">
+                    <div class="development-image">
+                        <img src="research_1.jpeg" alt="오디오 케이블 x1">
+                        <div class="development-overlay">
+                            <button class="btn btn--primary">자세히 보기</button>
+                        </div>
+                    </div>
+                    <div class="development-info">
+                        <h3>오디오 케이블 및 전원</h3>
+                        <p class="development-category">오디오 케이블, 멀티탭</p>
+                        <p class="development-description">국제표준 규격 오디오 신호전송을 위한 오디오 케이블 연구 </p>
+                        <div class="development-features">
+                            <span class="feature">디지털 오디오 케이블</span>
+                            <span class="feature">오디오 전용 멀티탭</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acoustic Machine -->
+                <div class="development-card" data-development="panels">
+                    <div class="development-image">
+                        <img src="research_2.jpg" alt="음향기기 AP">
+                        <div class="development-overlay">
+                            <button class="btn btn--primary">자세히 보기</button>
+                        </div>
+                    </div>
+                    <div class="development-info">
+                        <h3>음향 기기</h3>
+                        <p class="development-category">파워앰프, 오디오 AI</p>
+                        <p class="development-description">최적 음향 재생을 위한 파워앰프 설계 및 오디오 AI를 이용한 음향 분석</p>
+                        <div class="development-features">
+                            <span class="feature">파워 앰프</span>
+                            <span class="feature">오디오 AI</span>
+                            <span class="feature">음장 제어</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Speakers System -->
+                <div class="development-card" data-development="subwoofers">
+                    <div class="development-image">
+                        <img src="research_3.jpg" alt="서브우퍼 스피커 연구">
+                        <div class="development-overlay">
+                            <button class="btn btn--primary">자세히 보기</button>
+                        </div>
+                    </div>
+                    <div class="development-info">
+                        <h3>스피커 시스템</h3>
+                        <p class="development-category">모니터링 스피커, 서브우퍼 스피커</p>
+                        <p class="development-description">AI를 활용한 스피커 및 청음실 음향특성 최적화</p>
+                        <div class="development-features">
+                            <span class="feature">모니터링 스피커</span>
+                            <span class="feature">서브우퍼 스피커</span>
+                            <span class="feature">청음실 음장 제어</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- development Details Modal -->
+    <div class="modal" id="developmentModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="development-detail-image">
+                    <img src="" alt="" id="modalImage">
+                </div>
+                <div class="development-detail-info">
+                    <h2 id="modalTitle"></h2>
+                    <p class="development-detail-category" id="modalCategory"></p>
+                    <p class="development-detail-description" id="modalDescription"></p>
+                    
+                    <div class="development-specifications">
+                        <h3>주요 특징</h3>
+                        <ul id="modalFeatures"></ul>
+                    </div>
+                    
+                    <div class="development-specifications">
+                        <h3>기술 사양</h3>
+                        <div id="modalSpecs"></div>
+                    </div>
+                    
+                    <div class="development-actions">
+                        <button class="btn btn--primary btn--full-width">문의하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>A49</h3>
+                    <p class="footer-tagline">We make standard audio</p>
+                </div>
+                <div class="footer-services">
+                    <h4>서비스</h4>
+                    <ul>
+                        <li>음향기기 개발</li>
+                        <li>스피커 개발</li>
+                        <li>청음실 음향 튜닝</li>
+                        <li>음향 기술 용역</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p>전화: 010-2711-1707</p>
+                    <p>이메일: a49servcie@a49.co.kr</p>
+                    <p>주소: 경기도 고양시 일산동구 호수로 678 삼성스위트오피스텔 704호</p>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A49 Audio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app_development.js"></script>
+    <script src="app_common.js"></script>
+</body>
+</html>

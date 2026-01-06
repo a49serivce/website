@@ -52,16 +52,19 @@
 
 .ceo-signature {
     margin-top: 2rem;
-    display: flex;
-    justify-content: flex-start;
+    text-align: right;
 }
 
-.ceo-signature img {
-    max-width: 180px;
-    height: auto;
-    display: block;
-    opacity: 0.8;
-    filter: brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(35deg) brightness(1.2);
+.ceo-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--a49-white);
+    margin: 0;
+}
+
+.signature-image {
+    width: 150px;
+    margin-top: 0.5rem;
 }
 
 /* Company Section */
@@ -78,8 +81,9 @@
 }
 
 .company-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 3rem;
 }
@@ -92,6 +96,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
     transform: translateY(30px);
+    flex-basis: 30%;
+    flex-grow: 1;
+    max-width: 350px;
 }
 
 .company-card.animate {
@@ -138,6 +145,13 @@
     font-weight: 600;
 }
 
+.mission-statement h4 {
+    color: var(--silver);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 .mission-statement p {
     color: #ffffff;
     font-size: 1.1rem;
@@ -149,17 +163,23 @@
     padding: 3rem 0;
 }
 
-.location-info-grid {
+.location-content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    align-items: center;
 }
 
-.location-content {
+.location-map {
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.location-info-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 3rem;
-    margin-top: 2rem;
+    grid-template-columns: 1fr; /* Make the info part single column */
+    gap: 1.5rem;
 }
 
 .location-info h3 {
@@ -286,6 +306,10 @@
     }
     
     .company-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .location-content-grid {
         grid-template-columns: 1fr;
     }
     

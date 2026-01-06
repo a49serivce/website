@@ -79,3 +79,79 @@
 .nav-links li a.active::after {
     width: 100%;
 }
+
+/* Hamburger Menu Styles */
+.nav-toggler {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav-toggler-icon {
+    width: 24px;
+    height: 2px;
+    background-color: var(--a49-white);
+    display: block;
+    position: relative;
+}
+
+.nav-toggler-icon::before,
+.nav-toggler-icon::after {
+    content: '';
+    width: 24px;
+    height: 2px;
+    background-color: var(--a49-white);
+    display: block;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.nav-toggler-icon::before {
+    top: -8px;
+}
+
+.nav-toggler-icon::after {
+    top: 8px;
+}
+
+
+@media (max-width: 1024px) { /* Adjusted breakpoint for better fit */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.98);
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0;
+        gap: 0;
+    }
+
+    .nav-links.nav-links--open {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links li a {
+        padding: 1rem 0;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-links li a::after {
+        bottom: 0.5rem;
+    }
+
+    .nav-toggler {
+        display: block;
+        z-index: 1001; /* Ensure it's above other header content */
+    }
+}
