@@ -1,3 +1,6 @@
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/geist-sans/geist-sans.css');
+@import url('https://assets.vercel.com/raw/upload/v1587415301/fonts/geist-mono/geist-mono.css');
+
 /* Common styles for A49 website */
 
 :root {
@@ -38,9 +41,9 @@
   --color-info-rgb: 98, 108, 113;
 
   /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
+  --font-family-base: "Geist", "Inter", -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
+  --font-family-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, monospace;
   --font-size-xs: 13px;
   --font-size-sm: 14px;
@@ -663,12 +666,6 @@ select.form-control {
 /* Dark mode specifics */
 [data-color-scheme="dark"] .btn--outline {
   border: 1px solid var(--color-border-secondary);
-}
-
-@font-face {
-  font-family: 'FKGroteskNeue';
-  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
-    format('woff2');
 }
 
 /* Smooth scrolling */

@@ -44,9 +44,9 @@ const technologies = [
     id: 6,
     name: "Turntable",
     category: "room-acoustics-measurement",
-    type: "Loudsoft", 
+    type: "A49", 
     description: "스피커의 360도 전방향 음향 특성을 자동으로 측정하기 위한 정밀 턴테이블입니다.",
-    image: "room acoustics measurement/turntable.jpg"
+    image: "room acoustics measurement/turntable2.jpg"
   },
   {
     id: 7,
