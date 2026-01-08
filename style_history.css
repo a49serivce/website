@@ -96,6 +96,10 @@
     line-height: 1.6;
 }
 
+.highlight {
+    color: lightgray;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .main {
