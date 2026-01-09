@@ -5,7 +5,7 @@ const technologies = [
     name: "DS3 Dodecahedron Speaker",
     category: "room-acoustics-measurement",
     type: "NTi Audio",
-    description: "실내 및 건축 음향 측정을 위한 무지향성 음원 스피커입니다.",
+    description: "건축 음향 측정용 무지향성 음원",
     image: "room acoustics measurement/3-OMNI-5-4.jpg"
   },
   {
@@ -13,7 +13,7 @@ const technologies = [
     name: "M30 Measurement Microphone",
     category: "room-acoustics-measurement",
     type: "Earthworks Audio",
-    description: "정밀한 음향 분석을 위한 고정밀 측정용 마이크로폰입니다.",
+    description: "음향측정용 무지향성 마이크로폰",
     image: "room acoustics measurement/earthworks_measurement_M30.jpg"
   },
   {
@@ -21,7 +21,7 @@ const technologies = [
     name: "TalkBox",
     category: "room-acoustics-measurement",
     type: "NTi Audio",
-    description: "음성 명료도(STIPA) 측정을 위한 음향 신호 소스입니다.",
+    description: "음성 명료도 측정용 음원",
     image: "room acoustics measurement/images.jpg"
   },
   {
@@ -29,7 +29,7 @@ const technologies = [
     name: "XL2 - MRPRO Acoustic Analyzer",
     category: "room-acoustics-measurement",
     type: "NTi Audio",
-    description: "라이브 사운드, 음향 설비, 스튜디오 환경을 위한 전문가용 음향 및 오디오 분석기입니다.",
+    description: "휴대용 건축음향, 전기음향 측정 및 분석장비",
     image: "room acoustics measurement/kit-xl2.webp"
   },
   {
@@ -37,7 +37,7 @@ const technologies = [
     name: "Fireface UCX II",
     category: "room-acoustics-measurement",
     type: "RME",
-    description: "전문적인 녹음 및 측정을 위한 고성능 오디오 인터페이스입니다.",
+    description: "녹음 및 측정용 고성능 오디오 인터페이스",
     image: "room acoustics measurement/RME.png"
   },
   {
@@ -45,7 +45,7 @@ const technologies = [
     name: "Turntable",
     category: "speaker-microphone-measurement",
     type: "A49",
-    description: "스피커의 360도 전방향 음향 특성을 자동으로 측정하기 위한 정밀 턴테이블입니다.",
+    description: "스피커 음향 방사 특성 측정용 턴테이블 장치",
     image: "room acoustics measurement/turntable4.png "
   },
   {
@@ -53,7 +53,7 @@ const technologies = [
     name: "FINE Cone",
     category: "speaker-design-software",
     type: "Loudsoft",
-    description: "라우드스피커의 콘(Cone)과 서라운드(Surround)를 설계하고 분석하는 소프트웨어입니다.",
+    description: "라우드스피커 유닛 진동판 설계 및 분석 소프트웨어",
     image: "speaker design software/fine-cone-hero.jpg"
   },
   {
@@ -61,7 +61,7 @@ const technologies = [
     name: "FINE X-over",
     category: "speaker-design-software",
     type: "Loudsoft",
-    description: "다중-웨이 라우드스피커 시스템을 위한 고급 크로스오버 설계 및 시뮬레이션 소프트웨어입니다.",
+    description: "라우드스피커 크로스오버 설계 소프트웨어",
     image: "speaker design software/FINE-X-over-Full.webp"
   },
   {
@@ -69,7 +69,7 @@ const technologies = [
     name: "FINE Box",
     category: "speaker-design-software",
     type: "Loudsoft",
-    description: "스피커 인클로저(통)와 포트의 동작을 시뮬레이션하는 라우드스피커 인클로저 설계 소프트웨어입니다.",
+    description: "라우드스피커 인클로저 설계 소프트웨어",
     image: "speaker design software/finebox.jpg"
   },
   {
@@ -77,7 +77,7 @@ const technologies = [
     name: "FINE Motor",
     category: "speaker-design-software",
     type: "Loudsoft",
-    description: "유한요소해석(FEA)을 사용하여 라우드스피커 모터 시스템을 설계하고 분석하는 소프트웨어입니다.",
+    description: "라우드스피커 유닛 구동부 설계 소프트웨어",
     image: "speaker design software/FINEMotorPRO-FEA.webp"
   },
   {
@@ -85,7 +85,7 @@ const technologies = [
     name: "APx555 B Series",
     category: "speaker-microphone-measurement",
     type: "Audio Precision",
-    description: "연구개발(R&D) 및 생산 테스트를 위한 고성능 오디오 분석기입니다.",
+    description: "국제 표준 전기음향 측정 및 분석 장비",
     image: "speaker microphone measurement/APx555-B-Series.png"
   },
   {
@@ -93,7 +93,7 @@ const technologies = [
     name: "GRAS 43AG Ear Simulator Kit",
     category: "speaker-microphone-measurement",
     type: "GRAS Sound & Vibration",
-    description: "헤드폰 및 이어폰 측정을 위해 인간의 귀 음향 특성을 시뮬레이션하는 장치입니다.",
+    description: "헤드폰 및 이어폰 측정용 국제 표쥰 이어 시뮬레이터",
     image: "speaker microphone measurement/audiology_ear_simulators_couplers.jpg"
   },
   {
@@ -101,7 +101,7 @@ const technologies = [
     name: "HATS Type 4128-C",
     category: "speaker-microphone-measurement",
     type: "Bruel & Kjaer",
-    description: "헤드셋, 오디오 회의 장비, 마이크, 헤드폰, 보청기 등 실제 사용 환경과 유사한 상태에서 전기음향 테스트를 수행하도록 설계된 HATS(머리 및 몸통 시뮬레이터)입니다.",
+    description: "음향 통신기기 측정용 국제 표준 머리 및 몸통 시뮬레이터(HATS)",
     image: "speaker microphone measurement/B&K 4128C.jpg"
   },
   {
@@ -109,7 +109,7 @@ const technologies = [
     name: "DSX-8000 Cable Analyzer",
     category: "speaker-microphone-measurement",
     type: "Fluke Networks",
-    description: "네트워크 인프라의 케이블 인증 및 테스트를 위한 플랫폼입니다.",
+    description: "국제 표준 이더넷 케이블 측정 및 분석 장비",
     image: "speaker microphone measurement/Fn-dsx-8000mi_01f_ko.jpg"
   },
   {
@@ -117,7 +117,7 @@ const technologies = [
     name: "Production Analyzer",
     category: "speaker-microphone-measurement",
     type: "Klippel",
-    description: "라우드스피커의 측정, 분석 및 품질 관리를 위한 포괄적인 시스템입니다.",
+    description: "국제 표준 라우드스피커 측정 및 분석 장비",
     image: "speaker microphone measurement/klippel production analyzer.png"
   },
   {
@@ -125,7 +125,7 @@ const technologies = [
     name: "LibreVNA",
     category: "speaker-microphone-measurement",
     type: "LibreVNA",
-    description: "RF 및 안테나 측정을 위한 USB 기반 벡터 네트워크 분석기입니다.",
+    description: "디지털 케이블 측정용 벡터 네트워크 분석기",
     image: "speaker microphone measurement/LibreVNA-2-0-100KHz-6GHz-USB-2-6-PCB.webp"
   },
   {
@@ -133,7 +133,7 @@ const technologies = [
     name: "AmpConnect ISC",
     category: "speaker-microphone-measurement",
     type: "Listen Inc",
-    description: "마이크, 스피커, 헤드폰의 전기음향 테스트를 위한 통합 하드웨어 및 소프트웨어입니다.",
+    description: "국제 표쥰 음향기기 측정 및 분석 장비",
     image: "speaker microphone measurement/listen ampconnect.jpg"
   }
 ];
