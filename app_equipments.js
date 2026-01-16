@@ -150,7 +150,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Sontek",
     description: "이어폰/헤드폰/ 마이크로폰 음향 및 통화품질 측정",
-    image: "speaker microphone measurement/Sontek_무향상자.avif"
+    image: "speaker microphone measurement/Sontek_무향상자.jpg"
   },
   {
     id: 20,
@@ -275,7 +275,7 @@ const technologies = [
   {
     id: 35,
     name: "돌비 애트모스 시연실",
-    category: "miscellaneous-test-equipment",
+    category: "room-acoustics-measurement",
     type: "A49",
     description: "몰입형 음향 콘텐츠 제작 및 평가를 위한 돌비 애트모스 시연",
     image: "slideshow_2.jpg"
