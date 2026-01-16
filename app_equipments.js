@@ -135,6 +135,150 @@ const technologies = [
     type: "Listen Inc",
     description: "국제 표쥰 음향기기 측정 및 분석 장비",
     image: "speaker microphone measurement/listen ampconnect.jpg"
+  },
+  {
+    id: 18,
+    name: "Active Loadbox",
+    category: "speaker-microphone-measurement",
+    type: "Audio Graph",
+    description: "파워앰프 정밀 측정용 장비",
+    image: "https://www.audiograph.se/wp-content/uploads/2013/10/slide1_Layer_1_PowerCube_front_0001_active_loadbox.png"
+  },
+  {
+    id: 19,
+    name: "무향 챔버",
+    category: "speaker-microphone-measurement",
+    type: "Sontek",
+    description: "이어폰/헤드폰/ 마이크로폰 음향 및 통화품질 측정",
+    image: "speaker microphone measurement/Sontek_무향상자.avif"
+  },
+  {
+    id: 20,
+    name: "SoundConnect mic power supply",
+    category: "speaker-microphone-measurement",
+    type: "Listen Inc",
+    description: "측정용 마이크로폰 전원 공급 및 제어 장치",
+    image: "https://www.listeninc.com/wp/media/SoundConnect_front_left.jpg"
+  },
+  {
+    id: 21,
+    name: "PA3",
+    category: "room-acoustics-measurement",
+    type: "NTi Audio",
+    description: "무지향성 스피커 전용 파워앰프",
+    image: "https://www.nti-audio.com/portals/0/02-products/PA3/PA3-600x300.jpg"
+  },
+  {
+    id: 22,
+    name: "CAL200",
+    category: "speaker-microphone-measurement",
+    type: "Larson Davis",
+    description: "측정용 마이크로폰 교정용 피스톤 폰",
+    image: "https://www.larsondavis.com/images/librariesprovider2/product/cal200/ld-cal200-precision-sound-level-calibrator.jpg?Status=Master&sfvrsn=4c0a8df0_5"
+  },
+  {
+    id: 23,
+    name: "B20",
+    category: "miscellaneous-test-equipment",
+    type: "HIKMICRO",
+    description: "전자회로 및 장비의 열 특성 분석용 열화상 카메라",
+    image: "speaker microphone measurement/B20.png"
+  },
+  {
+    id: 24,
+    name: "무향실",
+    category: "speaker-microphone-measurement",
+    type: "Sontek",
+    description: "음향 측정용 완전무향실",
+    image: "slideshow_1.jpg"
+  },
+  {
+    id: 25,
+    name: "Audio Power Amplifier Type 2716-C",
+    category: "speaker-microphone-measurement",
+    type: "Bruel & Kjaer",
+    description: "정밀 음향 측정용 파워앰프",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKafkOSQ8uOj0G7Mrygep_Dp-4qxwmveOs4g&s"
+  },
+  {
+    id: 26,
+    name: "FLEXUS FX100",
+    category: "speaker-microphone-measurement",
+    type: "NTi Audio",
+    description: "국제표준 다기능 오디오 및 음향 분석장비",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7fzoxD9g-efwhXCCW7U1SL_MlUSFtGxCaQ&s"
+  },
+  {
+    id: 27,
+    name: "Turntable TT01",
+    category: "speaker-microphone-measurement",
+    type: "NTi Audio",
+    description: "마이크로폰 지향성 측정용 턴테이블",
+    image: "https://www.nti-audio.com/Portals/0/easygalleryimages/1/98/turntable%20tt01%20detail.jpg"
+  },
+  {
+    id: 28,
+    name: "SG-2423B",
+    category: "speaker-microphone-measurement",
+    type: "Sigma eltec",
+    description: "스피커 이음 분석용 주파수 발생기",
+    image: "speaker microphone measurement/SigmaEltech SG-2423B.jpg"
+  },
+  {
+    id: 29,
+    name: "VOLTAGE DETECTOR 3480",
+    category: "miscellaneous-test-equipment",
+    type: "Hioki",
+    description: "전기회로 전압 유/무 체크용 비접촉식 검전기",
+    image: "speaker microphone measurement/hioki 3480.jpeg"
+  },
+  {
+    id: 30,
+    name: "TDS 2024B",
+    category: "miscellaneous-test-equipment",
+    type: "Tektronix",
+    description: "전기신호 파형 분석용 디지털 오실로스코프",
+    image: "speaker microphone measurement/Tektronix_TDS2024B.jpeg"
+  },
+  {
+    id: 31,
+    name: "TS250",
+    category: "miscellaneous-test-equipment",
+    type: "Accel Instrument",
+    description: "초음파 전용 앰프",
+    image: "speaker microphone measurement/ts250.jpg"
+  },
+  {
+    id: 32,
+    name: "Active Probe AP020",
+    category: "miscellaneous-test-equipment",
+    type: "Lecroy",
+    description: "전원 측정용 전압 강하 장치",
+    image: "speaker microphone measurement/AP020 2.png"
+  },
+  {
+    id: 33,
+    name: "liteVNA",
+    category: "miscellaneous-test-equipment",
+    type: "VNA",
+    description: "RF 회로 및 안테나 특성 분석용 벡터 네트워크 분석기",
+    image: "speaker microphone measurement/litevna.jpeg"
+  },
+  {
+    id: 34,
+    name: "tinySA",
+    category: "miscellaneous-test-equipment",
+    type: "SA",
+    description: "소형 휴대용 스펙트럼 분석기",
+    image: "speaker microphone measurement/tinysa.jpeg"
+  },
+  {
+    id: 35,
+    name: "돌비 애트모스 시연실",
+    category: "miscellaneous-test-equipment",
+    type: "A49",
+    description: "몰입형 음향 콘텐츠 제작 및 평가를 위한 돌비 애트모스 시연",
+    image: "slideshow_2.jpg"
   }
 ];
 
