@@ -6,7 +6,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "NTi Audio",
     description: "건축 음향 측정용 무지향성 음원",
-    image: "room acoustics measurement/3-OMNI-5-4.jpg"
+    image: "equipments/room-acoustics-measurement/3-OMNI-5-4.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "Earthworks Audio",
     description: "음향측정용 무지향성 마이크로폰",
-    image: "room acoustics measurement/earthworks_measurement_M30.jpg"
+    image: "equipments/room-acoustics-measurement/earthworks_measurement_M30.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "NTi Audio",
     description: "음성 명료도 측정용 음원",
-    image: "room acoustics measurement/images.jpg"
+    image: "equipments/room-acoustics-measurement/images.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "NTi Audio",
     description: "휴대용 건축음향, 전기음향 측정 및 분석장비",
-    image: "room acoustics measurement/kit-xl2.webp"
+    image: "equipments/room-acoustics-measurement/kit-xl2.webp"
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "RME",
     description: "녹음 및 측정용 고성능 오디오 인터페이스",
-    image: "room acoustics measurement/RME.png"
+    image: "equipments/room-acoustics-measurement/RME.png"
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "A49",
     description: "스피커 음향 방사 특성 측정용 턴테이블 장치",
-    image: "room acoustics measurement/turntable4.png "
+    image: "equipments/speaker-microphone-measurement/turntable4.png"
   },
   {
     id: 7,
@@ -54,7 +54,7 @@ const technologies = [
     category: "speaker-design-software",
     type: "Loudsoft",
     description: "라우드스피커 유닛 진동판 설계 및 분석 소프트웨어",
-    image: "speaker design software/fine-cone-hero.jpg"
+    image: "equipments/speaker-design-software/fine-cone-hero.jpg"
   },
   {
     id: 8,
@@ -62,7 +62,7 @@ const technologies = [
     category: "speaker-design-software",
     type: "Loudsoft",
     description: "라우드스피커 크로스오버 설계 소프트웨어",
-    image: "speaker design software/FINE-X-over-Full.webp"
+    image: "equipments/speaker-design-software/FINE-X-over-Full.webp"
   },
   {
     id: 9,
@@ -70,7 +70,7 @@ const technologies = [
     category: "speaker-design-software",
     type: "Loudsoft",
     description: "라우드스피커 인클로저 설계 소프트웨어",
-    image: "speaker design software/finebox.jpg"
+    image: "equipments/speaker-design-software/finebox.jpg"
   },
   {
     id: 10,
@@ -78,7 +78,7 @@ const technologies = [
     category: "speaker-design-software",
     type: "Loudsoft",
     description: "라우드스피커 유닛 구동부 설계 소프트웨어",
-    image: "speaker design software/FINEMotorPRO-FEA.webp"
+    image: "equipments/speaker-design-software/FINEMotorPRO-FEA.webp"
   },
   {
     id: 11,
@@ -86,7 +86,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Audio Precision",
     description: "국제 표준 전기음향 측정 및 분석 장비",
-    image: "speaker microphone measurement/APx555-B-Series.png"
+    image: "equipments/speaker-microphone-measurement/APx555-B-Series.png"
   },
   {
     id: 12,
@@ -94,7 +94,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "GRAS Sound & Vibration",
     description: "헤드폰 및 이어폰 측정용 국제 표쥰 이어 시뮬레이터",
-    image: "speaker microphone measurement/audiology_ear_simulators_couplers.jpg"
+    image: "equipments/speaker-microphone-measurement/audiology_ear_simulators_couplers.jpg"
   },
   {
     id: 13,
@@ -102,7 +102,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Bruel & Kjaer",
     description: "음향 통신기기 측정용 국제 표준 머리 및 몸통 시뮬레이터(HATS)",
-    image: "speaker microphone measurement/B&K 4128C.jpg"
+    image: "equipments/speaker-microphone-measurement/B&K 4128C.jpg"
   },
   {
     id: 14,
@@ -110,7 +110,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Fluke Networks",
     description: "국제 표준 이더넷 케이블 측정 및 분석 장비",
-    image: "speaker microphone measurement/Fn-dsx-8000mi_01f_ko.jpg"
+    image: "equipments/speaker-microphone-measurement/Fn-dsx-8000mi_01f_ko.jpg"
   },
   {
     id: 15,
@@ -118,7 +118,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Klippel",
     description: "국제 표준 라우드스피커 측정 및 분석 장비",
-    image: "speaker microphone measurement/klippel production analyzer.png"
+    image: "equipments/speaker-microphone-measurement/klippel production analyzer.png"
   },
   {
     id: 16,
@@ -126,7 +126,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "LibreVNA",
     description: "디지털 케이블 측정용 벡터 네트워크 분석기",
-    image: "speaker microphone measurement/LibreVNA-2-0-100KHz-6GHz-USB-2-6-PCB.webp"
+    image: "equipments/speaker-microphone-measurement/LibreVNA-2-0-100KHz-6GHz-USB-2-6-PCB.webp"
   },
   {
     id: 17,
@@ -134,7 +134,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Listen Inc",
     description: "국제 표쥰 음향기기 측정 및 분석 장비",
-    image: "speaker microphone measurement/listen ampconnect.jpg"
+    image: "equipments/speaker-microphone-measurement/listen ampconnect.jpg"
   },
   {
     id: 18,
@@ -150,7 +150,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Sontek",
     description: "이어폰/헤드폰/ 마이크로폰 음향 및 통화품질 측정",
-    image: "speaker microphone measurement/Sontek_무향상자.jpg"
+    image: "equipments/speaker-microphone-measurement/Sontek_anechoicbox.jpg"
   },
   {
     id: 20,
@@ -182,7 +182,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "HIKMICRO",
     description: "전자회로 및 장비의 열 특성 분석용 열화상 카메라",
-    image: "speaker microphone measurement/B20.png"
+    image: "equipments/miscellaneous-test-equipment/B20.png"
   },
   {
     id: 24,
@@ -190,7 +190,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Sontek",
     description: "음향 측정용 완전무향실",
-    image: "slideshow_1.jpg"
+    image: "equipments/speaker-microphone-measurement/anechoic-chamber.jpg"
   },
   {
     id: 25,
@@ -222,7 +222,7 @@ const technologies = [
     category: "speaker-microphone-measurement",
     type: "Sigma eltec",
     description: "스피커 이음 분석용 주파수 발생기",
-    image: "speaker microphone measurement/SigmaEltech SG-2423B.jpg"
+    image: "equipments/speaker-microphone-measurement/SigmaEltech SG-2423B.jpg"
   },
   {
     id: 29,
@@ -230,7 +230,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "Hioki",
     description: "전기회로 전압 유/무 체크용 비접촉식 검전기",
-    image: "speaker microphone measurement/hioki 3480.jpeg"
+    image: "equipments/miscellaneous-test-equipment/hioki_3480.jpeg"
   },
   {
     id: 30,
@@ -238,7 +238,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "Tektronix",
     description: "전기신호 파형 분석용 디지털 오실로스코프",
-    image: "speaker microphone measurement/Tektronix_TDS2024B.jpeg"
+    image: "equipments/miscellaneous-test-equipment/Tektronix_TDS2024B.jpeg"
   },
   {
     id: 31,
@@ -246,7 +246,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "Accel Instrument",
     description: "초음파 전용 앰프",
-    image: "speaker microphone measurement/ts250.jpg"
+    image: "equipments/miscellaneous-test-equipment/ts250.jpg"
   },
   {
     id: 32,
@@ -254,7 +254,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "Lecroy",
     description: "전원 측정용 전압 강하 장치",
-    image: "speaker microphone measurement/AP020 2.png"
+    image: "equipments/miscellaneous-test-equipment/AP020 2.png"
   },
   {
     id: 33,
@@ -262,7 +262,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "VNA",
     description: "RF 회로 및 안테나 특성 분석용 벡터 네트워크 분석기",
-    image: "speaker microphone measurement/litevna.jpeg"
+    image: "equipments/miscellaneous-test-equipment/litevna.jpeg"
   },
   {
     id: 34,
@@ -270,7 +270,7 @@ const technologies = [
     category: "miscellaneous-test-equipment",
     type: "SA",
     description: "소형 휴대용 스펙트럼 분석기",
-    image: "speaker microphone measurement/tinysa.jpeg"
+    image: "equipments/miscellaneous-test-equipment/tinysa.jpeg"
   },
   {
     id: 35,
@@ -278,7 +278,7 @@ const technologies = [
     category: "room-acoustics-measurement",
     type: "A49",
     description: "몰입형 음향 콘텐츠 제작 및 평가를 위한 돌비 애트모스 시연",
-    image: "slideshow_2.jpg"
+    image: "equipments/miscellaneous-test-equipment/dolby-room.jpg"
   }
 ];
 
