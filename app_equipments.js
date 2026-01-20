@@ -173,7 +173,7 @@ const technologies = [
     name: "CAL200",
     category: "speaker-microphone-measurement",
     type: "Larson Davis",
-    description: "측정용 마이크로폰 교정용 피스톤 폰",
+    description: "측정용 마이크로폰 교정장치",
     image: "https://www.larsondavis.com/images/librariesprovider2/product/cal200/ld-cal200-precision-sound-level-calibrator.jpg?Status=Master&sfvrsn=4c0a8df0_5"
   },
   {

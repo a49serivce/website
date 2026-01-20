@@ -5,7 +5,7 @@ const technologies = [
     name: "DS3 Dodecahedron Speaker",
     category: "room-acoustics-measurement",
     type: "NTi Audio",
-    description: "Omnidirectional sound source for building acoustics measurement",
+    description: "Omnidirectional sound source for room acoustic measurement",
     image: "equipments/room-acoustics-measurement/3-OMNI-5-4.jpg"
   },
   {
@@ -29,7 +29,7 @@ const technologies = [
     name: "XL2 - MRPRO Acoustic Analyzer",
     category: "room-acoustics-measurement",
     type: "NTi Audio",
-    description: "Portable building acoustics, electro-acoustics measurement and analysis equipment",
+    description: "Portable room acoustic, electro-acoustic measurement and analysis equipment",
     image: "equipments/room-acoustics-measurement/kit-xl2.webp"
   },
   {
@@ -141,7 +141,7 @@ const technologies = [
     name: "Active Loadbox",
     category: "speaker-microphone-measurement",
     type: "Audio Graph",
-    description: "Equipment for precision measurement of power amplifiers",
+    description: "Precise active load for power amplifiers",
     image: "https://www.audiograph.se/wp-content/uploads/2013/10/slide1_Layer_1_PowerCube_front_0001_active_loadbox.png"
   },
   {
@@ -173,7 +173,7 @@ const technologies = [
     name: "CAL200",
     category: "speaker-microphone-measurement",
     type: "Larson Davis",
-    description: "Pistonphone for calibrating measurement microphones",
+    description: "Measurement microphone calibrator",
     image: "https://www.larsondavis.com/images/librariesprovider2/product/cal200/ld-cal200-precision-sound-level-calibrator.jpg?Status=Master&sfvrsn=4c0a8df0_5"
   },
   {
@@ -189,7 +189,7 @@ const technologies = [
     name: "Anechoic Room",
     category: "speaker-microphone-measurement",
     type: "Sontek",
-    description: "Fully anechoic room for acoustic measurement",
+    description: "Anechoic room for acoustic measurement",
     image: "equipments/speaker-microphone-measurement/anechoic-chamber.jpg"
   },
   {
@@ -197,7 +197,7 @@ const technologies = [
     name: "Audio Power Amplifier Type 2716-C",
     category: "speaker-microphone-measurement",
     type: "Bruel & Kjaer",
-    description: "Power amplifier for precision acoustic measurement",
+    description: "Power amplifier for acoustic measurement",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKafkOSQ8uOj0G7Mrygep_Dp-4qxwmveOs4g&s"
   },
   {
@@ -221,7 +221,7 @@ const technologies = [
     name: "SG-2423B",
     category: "speaker-microphone-measurement",
     type: "Sigma eltec",
-    description: "Frequency generator for speaker buzz and rattle analysis",
+    description: "Frequency generator for loudspeaker buzz and rattle analysis",
     image: "equipments/speaker-microphone-measurement/SigmaEltech SG-2423B.jpg"
   },
   {
@@ -229,7 +229,7 @@ const technologies = [
     name: "VOLTAGE DETECTOR 3480",
     category: "miscellaneous-test-equipment",
     type: "Hioki",
-    description: "Non-contact voltage detector for checking voltage presence in electrical circuits",
+    description: "Non-contact voltage detector",
     image: "equipments/miscellaneous-test-equipment/hioki_3480.jpeg"
   },
   {
@@ -253,7 +253,7 @@ const technologies = [
     name: "Active Probe AP020",
     category: "miscellaneous-test-equipment",
     type: "Lecroy",
-    description: "Voltage drop device for power measurement",
+    description: "Voltage attenuator for power measurement",
     image: "equipments/miscellaneous-test-equipment/AP020 2.png"
   },
   {
@@ -261,7 +261,7 @@ const technologies = [
     name: "liteVNA",
     category: "miscellaneous-test-equipment",
     type: "VNA",
-    description: "Vector network analyzer for RF circuit and antenna characteristic analysis",
+    description: "Vector network analyzer for RF circuit and antenna analysis",
     image: "equipments/miscellaneous-test-equipment/litevna.jpeg"
   },
   {
@@ -269,7 +269,7 @@ const technologies = [
     name: "tinySA",
     category: "miscellaneous-test-equipment",
     type: "SA",
-    description: "Small portable spectrum analyzer",
+    description: "Portable spectrum analyzer",
     image: "equipments/miscellaneous-test-equipment/tinysa.jpeg"
   },
   {
@@ -277,7 +277,7 @@ const technologies = [
     name: "Dolby Atmos Demo Room",
     category: "room-acoustics-measurement",
     type: "A49",
-    description: "Dolby Atmos demonstration for immersive audio content production and evaluation",
+    description: "Dolby Atmos demonstration for immersive audio contents production and evaluation",
     image: "equipments/miscellaneous-test-equipment/dolby-room.jpg"
   }
 ];
