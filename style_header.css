@@ -154,3 +154,45 @@
         z-index: 1001; /* Ensure it's above other header content */
     }
 }
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-switcher a {
+    color: var(--a49-white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    padding: 0; /* Override padding from parent li a */
+}
+
+.lang-switcher a:hover,
+.lang-switcher a.active {
+    color: var(--silver);
+}
+
+.lang-switcher a::after {
+    display: none; /* No underline for lang switcher */
+}
+
+.lang-separator {
+    color: var(--light-gray);
+    font-size: 0.9em;
+}
+
+.lang-switcher-container {
+    margin-left: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .lang-switcher-container {
+        margin-left: 0;
+        padding: 1rem 0;
+    }
+    .lang-switcher {
+        justify-content: center;
+    }
+}
